@@ -1,0 +1,27 @@
+{
+  "name": "@la-ots/prettier-config",
+  "version": "1.0.0-beta.1",
+  "description": "Standard Prettier configuration for Louisiana's Office of Technology Services",
+  "author": "Louisiana Office of Technology Services",
+  "license": "CC0-1.0",
+  "repository": "github:la-ots/prettier-config",
+  "bugs": "https://github.com/la-ots/prettier-config/issues",
+  "homepage": "https://github.com/la-ots/prettier-config",
+  "keywords": [
+    "prettierconfig",
+    "prettier-config",
+    "prettier",
+    "la-ots",
+    "laots"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prettier-fix": "prettier --write ."
+  },
+  "peerDependencies": {
+    "prettier": ">= 2"
+  },
+  "dependencies": {
+    "prettier": "^2.8.0"
+  }
+}
