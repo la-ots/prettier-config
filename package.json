@@ -16,6 +16,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "prettier-fix": "prettier --write ."
   },
   "peerDependencies": {
@@ -23,5 +24,8 @@
   },
   "dependencies": {
     "prettier": "^2.8.0"
+  },
+  "devDependencies": {
+    "@la-ots/eslint-config": "^1.0.0-beta.1"
   }
 }
