@@ -1,6 +1,6 @@
 {
   "name": "@la-ots/prettier-config",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Standard Prettier configuration for Louisiana's Office of Technology Services",
   "author": "Louisiana Office of Technology Services",
   "license": "CC0-1.0",
@@ -16,12 +16,18 @@
   ],
   "main": "index.js",
   "scripts": {
-    "prettier-fix": "prettier --write ."
+    "lint:js": "eslint **/*.js",
+    "lint:js:fix": "eslint **/*.js --fix",
+    "format:check": "prettier --check .",
+    "format": "prettier --write --ignore-unknown ."
   },
   "peerDependencies": {
     "prettier": ">= 2"
   },
   "dependencies": {
     "prettier": "^2.8.0"
+  },
+  "devDependencies": {
+    "@la-ots/eslint-config": "^1.0.0"
   }
 }
