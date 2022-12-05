@@ -29,8 +29,8 @@ Add the following scripts to your `package.json`:
 ```javascript
 {
   "scripts": {
-    "prettier-check": "prettier --check .",
-    "prettier-fix": "prettier --write ."
+    "format:check": "prettier --check .",
+    "format": "prettier --write --ignore-unknown ."
   }
 }
 ```
@@ -38,6 +38,6 @@ Add the following scripts to your `package.json`:
 Execute scripts:
 
 ```bash
-npm run prettier-check
-npm run prettier-fix
+npm run format:check
+npm run format
 ```
