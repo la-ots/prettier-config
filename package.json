@@ -25,7 +25,7 @@
     "prettier": ">= 2"
   },
   "dependencies": {
-    "prettier": "^2.8.0"
+    "prettier": "^3.0.0"
   },
   "devDependencies": {
     "@la-ots/eslint-config": "^1.0.0"
