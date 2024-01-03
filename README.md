@@ -1,4 +1,4 @@
-# @la-ots/stylelint-config
+# @la-ots/prettier-config
 
 Standard configuration for [Prettier](https://prettier.io/).
 
